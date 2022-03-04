@@ -1,0 +1,39 @@
+.hero{
+    height:60vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(1,1,1, 0.325),rgba(0,0,0,0.564)),url(../img/wallpaper.jpeg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    background-attachment: fixed;    
+}
+
+
+
+.inf-hero{
+    display: block;
+    align-items:center;
+    width: 70rem;
+    height:15rem;
+    color: white;
+    font-style: normal; 
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title_hero{
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    display: flex;
+}
+
+.subtitle_hero{
+    margin-left: 25rem;
+    display: flex;
+    font-size: 17px;
+    padding :5px;
+    
+}
+
