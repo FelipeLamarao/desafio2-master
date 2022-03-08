@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,100;1,200;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/products.css">
     <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/footer.css">
+
     <title>JordanShoes</title>
 </head>
 <body>
@@ -24,10 +26,12 @@
     <section class="hero"> 
         
             <div class="inf-hero">
-                <h1 class="title_hero">A melhor loja de Jordan</h1>
-                <p class="subtitle_hero">O tenis jordan é fruto de uma velha parceria entre a nike e o jogador Michael Jordan</p>
+                <h1 class="title_hero">A melhor loja de Jordan</h1> 
+                <p id="typed"></p>
+                <p class="subtitle_hero" id="sub">O tenis jordan é fruto de uma velha parceria entre a nike e o jogador Michael Jordan</p>
+                <p class="subtitle_hero" id="sub">O tenis jordan é fruto de uma velha parceria entre a nike e o jogador Michael Jordan</p>  
             </div>
-  
+            
             
     </section>
 
@@ -47,6 +51,37 @@
         <div class="item"> <img src="img/8.png" alt="Jordan8"></div>        
     </section>
 
+    <section class="footer">
+        <p>Todos os direitos reservados</p>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed =new Typed('#typed',{
+            stringsElement: '#sub',//id do que sera escrito
+            typeSpeed: 30
+        });
+    </script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal(".products", { delay: 200 });
+
+           
+
+    </script>
+
+
+
     
 </body>
 </html>
+
+
